@@ -13,7 +13,7 @@ namespace DotNetConsumeRWS
         {
 
             // 1. Establish a connection to DeployR.
-            String deployrEndpoint = "http://138.91.186.131:8050/deployr";
+            String deployrEndpoint = "http://<url/ip of DeployR server>:8050/deployr";
             RClient rClient = RClientFactory.createClient(deployrEndpoint);
 
             //Authenticate
